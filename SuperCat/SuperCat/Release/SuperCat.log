@@ -1,0 +1,31 @@
+﻿Build started 4/6/2014 1:44:44 PM.
+     1>Project "C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\SuperCat\SuperCat.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cat.cpp Coin.cpp Main.cpp MyEventReceiver.cpp Rat.cpp World.cpp
+         Cat.cpp
+     1>Cat.cpp(39): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Cat.cpp(53): warning C4244: 'argument' : conversion from 'int' to 'irr::f32', possible loss of data
+     1>Cat.cpp(67): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Cat.cpp(122): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Coin.cpp
+     1>Coin.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'irr::f32', possible loss of data
+         Main.cpp
+     1>Main.cpp(171): warning C4018: '<' : signed/unsigned mismatch
+         MyEventReceiver.cpp
+         Rat.cpp
+         World.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\Release\SuperCat.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\Release\SuperCat.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\Release\SuperCat.lib" /MACHINE:X86 /SAFESEH Release\Cat.obj
+         Release\Coin.obj
+         Release\Main.obj
+         Release\MyEventReceiver.obj
+         Release\Rat.obj
+         Release\World.obj
+         Generating code
+         Finished generating code
+         SuperCat.vcxproj -> C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\Release\SuperCat.exe
+     1>Done Building Project "C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\SuperCat\SuperCat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.07

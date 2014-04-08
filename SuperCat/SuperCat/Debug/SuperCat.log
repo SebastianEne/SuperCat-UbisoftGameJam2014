@@ -1,0 +1,19 @@
+﻿Build started 4/6/2014 3:43:10 PM.
+     1>Project "C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\SuperCat\SuperCat.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\lenovo\desktop\ubisoftgamejam-supercat\supercat\supercat\main.cpp(165): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\Debug\SuperCat.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\Debug\SuperCat.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\Debug\SuperCat.lib" /MACHINE:X86 Debug\Cat.obj
+         Debug\Coin.obj
+         Debug\Main.obj
+         Debug\MyEventReceiver.obj
+         Debug\Rat.obj
+         Debug\World.obj
+         SuperCat.vcxproj -> C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\Debug\SuperCat.exe
+     1>Done Building Project "C:\Users\lenovo\Desktop\UbisoftGameJam-SuperCat\SuperCat\SuperCat\SuperCat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91
